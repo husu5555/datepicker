@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="ui-datepicker-wrap">
+        <input type="text" class="ui-datepicker-input" />
+        <div class="ui-datepicker">
+        </div>
+    </div>
+    <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="./index.js">
+    </script>
+    <script type="text/javascript">
+        //初始化日期选择器
+        datepicker.init(".ui-datepicker");
+        //控制日期选择器的显示隐藏
+        $(".ui-datepicker-wrap").on("mouseover", function() {
+            $(".ui-datepicker").addClass("ui-datepicker-show");
+
+        })
+        $(".ui-datepicker-wrap").on("mouseout", function() {
+            $(".ui-datepicker").removeClass("ui-datepicker-show");
+        })
+    </script>
+</body>
+
+</html>

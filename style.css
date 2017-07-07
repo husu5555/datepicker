@@ -1,0 +1,86 @@
+html,
+body,
+ul,
+li,
+ol,
+dl,
+dd,
+dt,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+form,
+fieldset,
+legend,
+img {
+    margin: 0;
+    padding: 0;
+}
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+.ui-datepicker {
+    position: absolute;
+    left: 0px;
+    top: 29px;
+    width: 240px;
+    height: 260px;
+    display: none;
+    border: 1px solid #f1f1f1;
+    box-shadow: 3px 3px 3px #D8D8D8;
+}
+
+.ui-datepicker-show {
+    display: block;
+}
+
+.ui-datepicker-wrap {
+    width: 242px;
+}
+
+.ui-datepicker-table {
+    width: 100%;
+}
+
+.ui-datepicker-table tr {
+    height: 30px;
+    text-align: center;
+}
+
+.ui-datepicker-table tr td {
+    cursor: pointer;
+}
+
+.ui-datepicker-header {
+    height: 30px;
+    line-height: 30px;
+}
+
+.ui-datepicker-header-month {
+    margin-left: 60px;
+}
+
+.ui-datepicker-prev-btn {
+    cursor: pointer;
+}
+
+.ui-datepicker-next-btn {
+    cursor: pointer;
+}
+
+.ui-datepicker-input {
+    width: 240px;
+    height: 25px;
+    border-radius: 2px;
+    border-width: 1px;
+}
